@@ -92,13 +92,13 @@ return (
                 <h1 title='País' className='text-5xl font-bold'>{country}</h1>
                 <h1 title='Código Postal' className='text-3xl'>{postCode}</h1>
             </div>
-            <div className='grid grid-cols-2 gap-4'>
+            <div className='grid grid-cols-1 gap-4'>
 
                 {
                 places.map((item, i) => {
                 return(
                 item &&
-                <div className='text-sm flex flex-col gap-4 bg-gray-100 p-3 rounded-xl last:col-span-2' key={i}>
+                <div className='text-sm flex flex-col gap-4 bg-gray-100 p-3 rounded-xl' key={i}>
                     <div className='flex flex-col gap-1'>
                         <h3 className='text-lg font-bold'>{item.state}</h3>
                         <h3>{item['place name']}</h3>
