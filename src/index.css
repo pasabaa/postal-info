@@ -3,9 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply bg-black/95 text-gray-100
-}
 
 .loader {
     width: 48px;
